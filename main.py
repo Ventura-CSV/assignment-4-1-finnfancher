@@ -7,6 +7,9 @@ def main():
             break
         else:
             print("Input Error.")
+            
+    for i in range(ord(start), ord(end)+1):
+        result.append(chr(i))
 
     """
     ########################################
