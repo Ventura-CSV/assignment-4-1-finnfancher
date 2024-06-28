@@ -2,7 +2,7 @@ def main():
     result = []
     while True:
         start = input('Enter the starting letter: ')
-        end = input('Enter the starting letter: ')
+        end = input('Enter the ending letter: ')
         if((start.isalpha() and end.isalpha()) and (ord(start) < ord(end))):
             break
         else:
